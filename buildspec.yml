@@ -4,12 +4,8 @@ phases:
   install:
     runtime-versions:
       nodejs: 14
-  pre_build:
     commands:
-      - echo "Installing dependencies..."
+      - npm install
   build:
     commands:
-      - echo "Building project..."
-  post_build:
-    commands:
-      - echo "Build completed successfully!"
+      - npm test
