@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "A simple Node.js project",
   "scripts": {
-    "test": "echo 'No tests to run'"
+    "test": "jest"
+  },
+  "devDependencies": {
+    "jest": "^27.0.6"
   }
 }
